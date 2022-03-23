@@ -4,6 +4,9 @@
 
 ## Welcome! 👋
 
+LIVE SITE - https://frontendmentor-rest-countries-api-challenge.netlify.app/ PS- site is not complet and i am still working on it!
+
+
 Thanks for checking out this front-end coding challenge.
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
