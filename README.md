@@ -4,7 +4,7 @@
 
 ## Welcome! 👋
 
-LIVE SITE - https://frontendmentor-rest-countries-api-challenge.netlify.app/ PS- site is not complet and i am still working on it!
+LIVE SITE - https://frontendmentor-rest-countries-api-challenge.netlify.app/    - site is not complete and i am still working on it!
 
 
 Thanks for checking out this front-end coding challenge.
