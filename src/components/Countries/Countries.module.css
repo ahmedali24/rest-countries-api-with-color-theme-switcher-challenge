@@ -30,7 +30,7 @@
   font-weight: 800;
   font-size: 18px;
   line-height: 26px;
-  color: #111517;
+
   margin: 24px 0px;
 }
 
@@ -40,7 +40,7 @@ h4 {
   font-weight: 800;
   font-size: 14px;
   line-height: 16px;
-  color: #111517;
+
   margin: 5px 0px;
 }
 
@@ -50,5 +50,4 @@ span {
   font-weight: 600;
   font-size: 14px;
   line-height: 16px;
-  color: #111517;
 }
