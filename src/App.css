@@ -20,4 +20,12 @@ body {
   background: var(--very-light-gray);
   color: var(--very-dark-blue);
   font-size: 16px;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+.app {
+  min-height: 100vh;
+  height: 100%;
+  background-color: var(--white);
 }
