@@ -11,7 +11,7 @@ const Countries = ({ flag, name, population, region, capital }) => {
         <div className={styles.info}>
           <h1 className={styles.name}>{name}</h1>
           <h4>
-            Population: <span>{population}</span>
+            Population: <span>{population.toLocaleString()}</span>
           </h4>
           <h4>
             Region: <span>{region}</span>
