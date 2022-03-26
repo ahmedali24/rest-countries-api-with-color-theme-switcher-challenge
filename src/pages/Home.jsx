@@ -11,7 +11,6 @@ const Home = () => {
   const getCountries = async () => {
     const response = await fetch("https://restcountries.com/v2/all");
     const countries = await response.json();
-    console.log(countries);
     setCountries(countries);
   };
 
@@ -30,7 +29,11 @@ const Home = () => {
   return (
     <>
       <Header />
-      <Search handleChange={handleChange} />
+      <Search
+        handleChange={handleChange}
+        setCountries={setCountries}
+        countries={countries}
+      />
       <div className={styles.countries}>
         {filteredCountries.map((country) => {
           return (

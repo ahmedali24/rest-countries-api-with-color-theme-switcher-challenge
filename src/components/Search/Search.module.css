@@ -52,4 +52,8 @@
   .select {
     margin-top: 10px;
   }
+
+  .searchIcon {
+    display: none;
+  }
 }
