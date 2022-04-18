@@ -29,3 +29,16 @@ body {
   height: 100%;
   background-color: var(--white);
 }
+
+#dark .header {
+  background-color: var(--dark-gray);
+}
+
+.countries {
+  display: flex;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  justify-content: center;
+  align-items: center;
+}

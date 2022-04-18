@@ -1,11 +1,11 @@
 import React from "react";
-import Logo from "./Logo";
-import DarkMode from "./DarkMode";
+import Logo from "./Logo/Logo";
+import DarkMode from "./DarkMode/DarkMode";
 import styles from "./Header.module.css";
 
-const Header = () => {
+const Header = ({ dark }) => {
   return (
-    <header className={styles.header}>
+    <header className={styles.header} id={`styles.${dark}`}>
       <Logo />
       <DarkMode />
     </header>
